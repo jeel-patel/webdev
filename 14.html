@@ -1,0 +1,272 @@
+<html>
+
+<head>
+    <title>CSS Flex-box Header</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0px;
+        }
+
+        body{
+            background-color: black;
+        }
+
+        header {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+
+            background-color: black;
+
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 15px;
+
+
+            /* padding: 20px;
+                padding-top: 23px;
+                padding-bottom: 2px;
+                padding-left: 4px; */
+
+            /* border-radius: 15px; */
+
+            position: sticky;
+            top: 0px;
+
+            font-size: 23px;
+
+            border-bottom-width: 3px;
+            border-bottom-style: solid;
+            border-bottom-color: brown;
+
+            /* border: 2px double brown ; */
+            /* border-width: 5px; */
+
+
+
+            /* top: 1px; */
+
+            /* justify-content: center; */
+
+        }
+
+        a {
+            color: brown;
+            text-decoration: none;
+
+            background-color: black;
+            padding: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+
+            /* margin-left:10px ; */
+            /* margin-right: 10px; */
+            /* margin-bottom: 3px; */
+            /* margin-top: 3px;  */
+
+
+
+            /* border:brown; */
+            /* border-width: 2px; */
+            /* border-radius: 15px; */
+            /* border-style:solid; */
+
+            /* display: blo; */
+
+
+            font-family: 'Major Mono Display', monospace;
+
+            transition: cubic-bezier(0.25, 0.10, 0.25, 0.10);
+            transition-duration: 550ms;
+            transition-property: all;
+        }
+
+        a:hover {
+            background-color: rgb(167, 51, 51);
+            color: black;
+
+            /* text-shadow: 0px 0px 10px brown; */
+
+            margin: 5px;
+        }
+    
+        #c_drive_dropdown {
+            display: none;
+        }
+
+        #f_drive_dropdown {
+            display: none;
+        }
+
+        #g_drive_dropdown {
+            display: none;
+        }
+
+        #cd:hover #c_drive_dropdown {
+            display: block;
+        }
+
+        .footerclass {
+
+            display: flex;
+            flex-direction: column;
+
+            border-top: 3px solid brown;
+
+            position: sticky;
+            bottom: 0px;
+
+            /* padding-top: 3px; */
+
+            background-color: black;
+
+
+
+        }
+
+        .content {
+
+
+
+            background-color: black;
+            color: rgb(179, 176, 171);
+
+            font-family: 'Cinzel', serif;
+            line-height: 25px;
+            word-wrap: break-word;
+
+            padding: 30px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+        }
+
+        h2 {
+            /* display: flex; */
+            text-align: center;
+            font-weight: bolder;
+            text-decoration: underline;
+
+            margin-top: 13px;
+
+            text-shadow: 0px 0px 0px azure;
+
+        }
+
+        img{
+
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+            margin:auto;
+
+            /* flex-grow: 3; */
+
+            margin-bottom: 22px;
+
+            /* border: 3px solid white; */
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- header -->
+    <header>
+        <a href="C:\" id="cd">HOME</a>
+        <a href="F:\" id="fd">PHOTO NEWS</a>
+        <a href="G:\" id="gd">BREAKING NEWS</a>
+        <!-- <a href="">F DRIVE</a> -->
+    </header>
+
+    <!-- header dropdown list -->
+
+    <!-- <div id="f_drive_dropdown">
+            <datalist>
+                <a href="">Bollywood Movies</a>
+                <a href="">Hollywood Movies</a>
+                <a href="">Gujarati Movies</a>
+            </datalist>
+        </div>
+        
+        <div id="c_drive_dropdown">
+            <a href="">Program files</a>
+            <a href="">Program Data</a>
+            <a href="">Windowa</a>
+        </div>
+        <div id="g_drive_dropdown">
+            <datalist>
+                <a href="">Vs Code</a>
+            </datalist>
+        </div>
+
+        <div class="flexboxdisplay"> -->
+
+    <div class="content">
+
+        <article>
+        <h2>Race Car Bursts Into Flames</h2><br>
+        <h3>5 Monday 2020,</h3><br>
+
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Formula One driver Romain Grosjean appeared to escape with
+            minor burns after his car crashed and burst into flames moments after the start of the Bahrain Grand Prix on
+            Sunday the AP reports. The 34-year-old French driver slid off the track on the first lap and his Haas car
+            burst into flames after being sliced in two by a barrier. Grosjean clambered out with the fire roaring
+            behind him and his race helmet singed. Governing body FIA said Grosjean is stable and was taken by
+            helicopter to a military hospital.
+        <blockquote>"Romain is doing okay, I don't want to make a medical comment but he had light burns on his hands
+            and ankles,"</blockquote> Haas team principal Guenther Steiner said.</p><br>
+
+        <p>"Obviously he's shaken," Steiner added, saying that "I want to thank the rescue crews who are very quick. The
+            marshals and FIA people they did a great job, it was scary." Grosjean was stuck inside the flaming wreck for
+            nearly 10 seconds before somehow finding a way out. Race footage showed safety officials reaching the car
+            immediately but with Grosjean still trapped inside. He managed to find a way out and jumped through the
+            flames and gripped the extremely hot metal barrier as he jumped over back onto the track, shaking his hands
+            in agony before being helped by the stewards. Moments later, Grosjean was shown on television chatting with
+            the race doctor in the medical car. Grosjean was then helped out of the car and into an ambulance.</p><br>
+
+            <img src="https://img2-azrcdn.newser.com/image/1332227-11-20201129142152.jpeg">
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Formula One driver Romain Grosjean appeared to escape with
+            minor burns after his car crashed and burst into flames moments after the start of the Bahrain Grand Prix on
+            Sunday the AP reports. The 34-year-old French driver slid off the track on the first lap and his Haas car
+            burst into flames after being sliced in two by a barrier. Grosjean clambered out with the fire roaring
+            behind him and his race helmet singed. Governing body FIA said Grosjean is stable and was taken by
+            helicopter to a military hospital.
+        <blockquote>"Romain is doing okay, I don't want to make a medical comment but he had light burns on his hands
+            and ankles,"</blockquote> Haas team principal Guenther Steiner said.</p><br>
+
+        <p>"Obviously he's shaken," Steiner added, saying that "I want to thank the rescue crews who are very quick. The
+            marshals and FIA people they did a great job, it was scary." Grosjean was stuck inside the flaming wreck for
+            nearly 10 seconds before somehow finding a way out. Race footage showed safety officials reaching the car
+            immediately but with Grosjean still trapped inside. He managed to find a way out and jumped through the
+            flames and gripped the extremely hot metal barrier as he jumped over back onto the track, shaking his hands
+            in agony before being helped by the stewards. Moments later, Grosjean was shown on television chatting with
+            the race doctor in the medical car. Grosjean was then helped out of the car and into an ambulance.</p>
+
+            <h3 style="text-align: right; margin-top: 30px; margin-right: 57px;">- by Jeel Dhamsaniya (TOI)</h3>
+            </article>
+
+
+    </div>
+
+    <footer class="footerclass">
+
+        <a href="">Contact Us</a>
+        <a href="">About us</a>
+        <a href="">Our team</a>
+
+    </footer>
+</body>
+
+</html>
